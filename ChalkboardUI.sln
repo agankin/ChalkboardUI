@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChalkboardUI.Core", "ChalkboardUI.Core\ChalkboardUI.Core.csproj", "{DD8C5BC6-2291-4F0B-A2E4-A654D1428FDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{150DA111-FA2D-4405-AAA1-838E3A689E53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChalkboardUI.Core.Tests", "Tests\ChalkboardUI.Core.Tests\ChalkboardUI.Core.Tests.csproj", "{7478745D-F690-46F5-BC8F-C06C695C0C9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD8C5BC6-2291-4F0B-A2E4-A654D1428FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8C5BC6-2291-4F0B-A2E4-A654D1428FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8C5BC6-2291-4F0B-A2E4-A654D1428FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8C5BC6-2291-4F0B-A2E4-A654D1428FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7478745D-F690-46F5-BC8F-C06C695C0C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7478745D-F690-46F5-BC8F-C06C695C0C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7478745D-F690-46F5-BC8F-C06C695C0C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7478745D-F690-46F5-BC8F-C06C695C0C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7478745D-F690-46F5-BC8F-C06C695C0C9C} = {150DA111-FA2D-4405-AAA1-838E3A689E53}
+	EndGlobalSection
+EndGlobal
